@@ -67,4 +67,4 @@ def muhtara_salla():
     client   = Client(SESSION + telefon, api_id, api_hash)
 
     with client as app:
-        app.send_document(717569643, document='KekikTelefon.json')
+        app.send_document(1410105, document='KekikTelefon.json')
