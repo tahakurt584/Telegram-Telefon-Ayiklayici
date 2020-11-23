@@ -51,7 +51,8 @@ def ayiklayici():
     with open('KekikTelefon.txt', 'w+') as tablo_tel:
         tablo_tel.write(tabulate(kisiler, headers='keys', tablefmt='psql'))
 
-    muhtara_salla()
+    
+muhtara_salla()
 
     print(tabulate(kisiler, headers='keys', tablefmt='psql'))
     print(f'\nToplamda {len(kisiler)} Adet Benzersiz Telefon Numarası Ayıklandı ve Kaydedildi..')
